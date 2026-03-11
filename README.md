@@ -51,7 +51,7 @@ Through this analysis, the project demonstrates how healthcare datasets can be t
 
 # Notebook Setup
 
-## Steps 1-3 have been uploaded in an HTML and Ipynb file.
+## Steps 1-3 have been uploaded in an Ipynb file. All Codes from steps 4-8 used to generate results are in the file.
 
 ---
 # 4. Exploratory Analysis:
