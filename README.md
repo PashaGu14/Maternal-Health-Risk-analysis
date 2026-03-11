@@ -16,6 +16,14 @@ The goal of this analysis is to identify physiological indicators that most stro
 Through this analysis, the project demonstrates how healthcare datasets can be transformed into decision-support insights that help identify high-risk pregnancies earlier.
 
 ---
+## Business value and stakeholders
+Primary beneficiaries: clinicians, care coordinators, hospital admins, and public health analysts.
+
+Primary value proposition: early identification of high-risk pregnancies to enable targeted monitoring, timely interventions, and optimized resource allocation.
+
+## Business Impact
+
+This analysis demonstrates how maternal health data can be leveraged to support earlier identification of high-risk pregnancies and improve clinical decision-making. By examining patterns in key physiological indicators and developing predictive models, the project illustrates how data analytics can help healthcare providers prioritize monitoring, allocate medical resources more effectively, and identify patient groups that may require additional care. Overall, the analysis highlights the potential for data-driven approaches to transform routine clinical measurements into actionable insights that support better maternal health outcomes.
 
 # Tech Stack
 
@@ -139,3 +147,10 @@ Conclusions from the analysis:
 * Composite risk score development
 
 * Unsupervised clustering using K-Means for patient segmentation
+
+## Data Source
+
+This analysis uses the Maternal Health Risk Dataset from the UCI Machine Learning Repository.
+The dataset includes physiological measurements collected from maternal patients and is commonly used in machine learning research to study predictors of maternal health risk.
+
+## https://uci-ics-mlr-prod.aws.uci.edu/dataset/863/maternal+health+risk 
