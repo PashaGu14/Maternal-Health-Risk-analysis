@@ -1,12 +1,11 @@
 # Maternal Health Risk Analysis
-
 ## Overview
 
 Maternal health outcomes remain a critical public health challenge, particularly in regions where consistent prenatal monitoring is limited. This project analyzes clinical indicators associated with maternal risk levels using the **Maternal Health Risk Dataset**.
 
 The goal of this analysis is to identify physiological indicators that most strongly correlate with elevated maternal health risk and to explore whether combinations of vital signs can predict maternal risk classification.
 
-The workflow combines:
+## The workflow combines:
 
 * Exploratory data analysis
 * SQL-style analytical queries
@@ -98,12 +97,20 @@ Clustering analysis groups patients with similar physiological characteristics. 
 ## Key findings: 
 
 * Higher systolic and diastolic blood pressure levels appear more frequently among high-risk pregnancies.
+<img width="450" height="400" alt="Blood Pressure distribution" src="https://github.com/user-attachments/assets/a25cc4ee-8a2a-484a-a80c-78d622109999" />
 
-* Elevated blood sugar is associated with increased maternal risk classification.
+* Age risk was evaluated and associated with increased maternal risk classification.
+  
+<img width="450" height="400" alt="Age Risk levels" src="https://github.com/user-attachments/assets/fa8871ba-8a24-4132-974b-e105b6cf884f" />
 
 * The classification model demonstrates that maternal risk levels can be predicted using combinations of physiological indicators.
 
+  <img width="450" height="400" alt="Correlation indicators" src="https://github.com/user-attachments/assets/5d6b79f8-3383-4c01-b683-c74d2367aa29" />
+
 * Clustering analysis reveals distinct maternal health profiles, suggesting that risk arises from multiple interacting factors rather than a single indicator.
+  
+  <img width="450" height="400" alt="Maternal Health clusters" src="https://github.com/user-attachments/assets/61826855-d59b-4032-8a80-db8aee7b0cff" />
+
 
 # 9. Executive Summary
 
