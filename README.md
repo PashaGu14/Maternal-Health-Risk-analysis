@@ -56,53 +56,53 @@ This analysis demonstrates how maternal health data can be leveraged to support 
 
 ---
 
-# Notebook Setup
+## Notebook Setup
 
 ## Steps 1-3 have been uploaded in an Ipynb file. All Codes from steps 4-8 used to generate results are in the file.
 
 ---
-# 4. Exploratory Analysis:
+## 4. Exploratory Analysis:
 
-## Examine risk distributions and demographic trends
+### Examine risk distributions and demographic trends
 Initial exploration shows how maternal risk levels are distributed across the dataset and highlights basic demographic patterns. Visualizations suggest that risk classification varies across age and vital sign ranges, indicating that multiple physiological indicators may contribute to maternal risk.
 
 ---
 
-# 5. Clinical Correlation Analysis:
+## 5. Clinical Correlation Analysis:
 
-## Analyze relationships between vital signs
+### Analyze relationships between vital signs
 
 Correlation analysis reveals relationships between physiological indicators, particularly between systolic and diastolic blood pressure. Elevated blood pressure levels appear more frequently within higher risk classifications, suggesting cardiovascular indicators play a meaningful role in maternal risk assessment.
 
 ---
 
-# 6. Risk Factor Modeling
+## 6. Risk Factor Modeling
 
-## Train a classifier to predict maternal risk levels
+### Train a classifier to predict maternal risk levels
 
 A Random Forest classifier was trained to predict maternal risk categories using physiological indicators. The model demonstrates that maternal risk classification can be predicted using features such as blood pressure, blood sugar, heart rate, and body temperature.
 
 ---
 
-# 7. Risk Metrics
+## 7. Risk Metrics
 
-## Construct a maternal risk scoring system
+### Construct a maternal risk scoring system
 
 A composite maternal risk score was created by combining key physiological indicators into a single metric. The resulting score produces distinct averages across risk groups, providing a simplified representation of maternal health risk.
 
 ---
 
-# 8. Patient Profile Segmentation
+## 8. Patient Profile Segmentation
 
-## Identify maternal health profiles using clustering
+### Identify maternal health profiles using clustering
 
 Clustering analysis groups patients with similar physiological characteristics. The results reveal distinct maternal health profiles, suggesting that different combinations of clinical indicators correspond to different risk patterns.
 
-# Results Snapshot:
+### Results Snapshot:
 
 - This analysis identified several physiological indicators associated with maternal health risk classification.
 
-## Key findings: 
+### Key findings: 
 
 * Higher systolic and diastolic blood pressure levels appear more frequently among high-risk pregnancies.
 <img width="450" height="400" alt="Blood Pressure distribution" src="https://github.com/user-attachments/assets/a25cc4ee-8a2a-484a-a80c-78d622109999" />
@@ -120,7 +120,7 @@ Clustering analysis groups patients with similar physiological characteristics. 
   <img width="450" height="400" alt="Maternal Health clusters" src="https://github.com/user-attachments/assets/61826855-d59b-4032-8a80-db8aee7b0cff" />
 
 
-# 9. Executive Summary
+## 9. Executive Summary
 
 Conclusions from the analysis:
 * Elevated **blood sugar levels** and **systolic blood pressure** are strongly associated with high maternal risk classifications.
@@ -128,7 +128,7 @@ Conclusions from the analysis:
 * Machine learning classification models can effectively predict maternal risk categories using physiological indicators.
 * Clustering analysis reveals distinct maternal health profiles, indicating that risk is often driven by combinations of clinical factors rather than individual indicators alone.
 
-## Key Techniques:
+### Key Techniques:
 
 * This project demonstrates several analytical and machine learning techniques commonly used in data science workflows:
 
@@ -148,9 +148,9 @@ Conclusions from the analysis:
 
 * Unsupervised clustering using K-Means for patient segmentation
 
-## Data Source
+### Data Source
 
 This analysis uses the Maternal Health Risk Dataset from the UCI Machine Learning Repository.
 The dataset includes physiological measurements collected from maternal patients and is commonly used in machine learning research to study predictors of maternal health risk.
 
-## https://uci-ics-mlr-prod.aws.uci.edu/dataset/863/maternal+health+risk 
+### https://uci-ics-mlr-prod.aws.uci.edu/dataset/863/maternal+health+risk 
